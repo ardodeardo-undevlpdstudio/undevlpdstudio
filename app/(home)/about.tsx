@@ -167,7 +167,7 @@ function About() {
           </div>
           <Cell>
             <Paragraph>
-              undevlpstudio was established as the in-house digital team behind{" "}
+              undevlpdstudio was established as the in-house digital team behind{" "}
               <Link
                 target="_blank"
                 href={"https://www.trueindonesia.com"}
