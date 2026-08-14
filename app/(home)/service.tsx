@@ -17,6 +17,14 @@ function Service() {
             <Asterisk position={"bottom-right"}></Asterisk>
             <Cell className="flex items-start">
               <div className="space-y-2">
+                <Code size={24} className="text-white"></Code>
+                <Paragraph className="font-medium">
+                  Software Development
+                </Paragraph>
+              </div>
+            </Cell>
+            <Cell className="flex items-start">
+              <div className="space-y-2">
                 <PersonStanding
                   size={24}
                   className="text-white"
@@ -30,14 +38,6 @@ function Service() {
               <div className="space-y-2">
                 <Globe size={24} className="text-white"></Globe>
                 <Paragraph className="font-medium">Digital Marketing</Paragraph>
-              </div>
-            </Cell>
-            <Cell className="flex items-start">
-              <div className="space-y-2">
-                <Code size={24} className="text-white"></Code>
-                <Paragraph className="font-medium">
-                  Software Development
-                </Paragraph>
               </div>
             </Cell>
             <Cell></Cell>

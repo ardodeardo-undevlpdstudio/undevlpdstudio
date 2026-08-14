@@ -26,8 +26,7 @@ function Product() {
             </Cell>
             <Cell className="bg-white/10 flex items-center hover:bg-white/25 transition-colors duration-300">
               <h3 className="text-white text-[22px] lg:text-2xl leading-[100%] font-bold">
-                travel <br />
-                companion
+                terrarium
               </h3>
             </Cell>
             <Cell className="bg-white/10 flex items-center hover:bg-white/25 transition-colors duration-300"></Cell>
