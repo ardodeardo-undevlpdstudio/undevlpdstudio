@@ -13,9 +13,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "undevlpstudio | Design, Develop & Grow",
+  title: "undevlpdstudio | Design, Develop & Grow",
   description:
-    "Born as an in-house digital team, undevlpstudio helps businesses transform ideas into impactful digital products through design, development, and marketing.",
+    "Born as an in-house digital team, undevlpdstudio helps businesses transform ideas into impactful digital products through design, development, and marketing.",
 };
 
 export default function RootLayout({
