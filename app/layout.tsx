@@ -13,9 +13,42 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "undevlpdstudio | Design, Develop & Grow",
+  title: "undevlpd studio | Design, Develop & Grow",
   description:
-    "Born as an in-house digital team, undevlpdstudio helps businesses transform ideas into impactful digital products through design, development, and marketing.",
+    "Born as an in-house digital team, undevlpd studio helps businesses transform ideas into impactful digital products through design, development, and marketing.",
+
+  alternates: {
+    canonical: "/",
+  },
+
+  // og
+  openGraph: {
+    type: "website",
+    locale: "en",
+    url: "https://undevlpdstudio.com",
+    title: "undevlpdstudio",
+    description: "Never finished. Always evolving.",
+    siteName: "undevlpdstudio",
+  },
+
+  // tw card
+  twitter: {
+    card: "summary_large_image",
+    title: "undevlpdstudio",
+    description: "Never finished. Always evolving.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
