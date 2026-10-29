@@ -2,7 +2,7 @@ import * as React from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
-const cellVariants = cva("relative min-h-[120px] border-white/25", {
+const cellVariants = cva("relative min-h-[120px] border-white/15", {
   variants: {
     padding: {
       default: "p-6",
