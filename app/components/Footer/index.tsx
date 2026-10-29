@@ -71,13 +71,13 @@ function Footer() {
             />
           </svg>
 
-          <Paragraph className="text-center text-xs lg:text-xs text-white/75">
-            Ruko L&apos;Agricola C/16, 3rd floor Jln. Raya Curug Sangereng,{" "}
-            <br className="hidden lg:block" /> Gading Serpong Kelapa Dua,
+          <Paragraph className="text-center text-xs text-white/75">
+            Ruko L&apos;Agricola C/15, 3rd floor Jln. Raya Curug Sangereng,{" "}
+            <br className="hidden" /> Gading Serpong Kelapa Dua,
             Tangerang, Banten Indonesia 15810
           </Paragraph>
-          <Paragraph className="text-center text-xs lg:text-xs text-white/75">
-            © 2026 PT. Wisma Kencana Andalas. All rights reserved.
+          <Paragraph className="text-center text-xs text-white/75">
+            © 2026 PT. M&M. All rights reserved.
           </Paragraph>
         </div>
       </div>

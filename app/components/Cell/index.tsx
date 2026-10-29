@@ -5,8 +5,8 @@ import { cn } from "@/lib/utils";
 const cellVariants = cva("relative min-h-[120px] border-white/25", {
   variants: {
     padding: {
-      default: "p-6 lg:p-12",
-      heading: "px-6 lg:px-12 pb-6 lg:pb-12 pt-12 lg:pt-24",
+      default: "p-6",
+      heading: "px-6 pb-6 pt-12",
       none: "padding-0",
     },
     border: {

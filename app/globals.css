@@ -15,10 +15,10 @@ body {
 @theme {
   --font-poppins: var(--font-poppins);
 
-  --container-sm: 488px;
-  --container-md: 544px;
-  --container-lg: 544px;
-  --container-xl: 544px;
+  --container-sm: 393px;
+  --container-md: 393px;
+  --container-lg: 393px;
+  --container-xl: 393px;
 
   --color-brand-dark-primary: #0f0f0f;
   --color-brand-dark-secondary: #939393;
