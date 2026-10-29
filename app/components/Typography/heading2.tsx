@@ -6,7 +6,7 @@ type Props = React.ComponentProps<"h2">;
 function Heading2({ className, children, ...props }: Props) {
   return (
     <h2
-      className={cn("text-[#F5F5F5] text-2xl lg:text-3xl font-semibold", className)}
+      className={cn("text-[#F5F5F5] text-2xl font-semibold", className)}
       {...props}
     >
       {children}
