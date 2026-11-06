@@ -13,6 +13,7 @@ const cellVariants = cva("relative min-h-[120px] border-white/15", {
       all: "border-[0.5px]",
       left: "border-l-[0.5px]",
       "bottom-right": "border-b-[0.5px] border-r-[0.5px]",
+      "top-left": "border-t-[0.5px] border-l-[0.5px]",
     },
   },
   defaultVariants: {
