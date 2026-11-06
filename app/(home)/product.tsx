@@ -1,40 +1,38 @@
-import { Heading2 } from "../components/Typography";
-import Asterisk from "../components/Asterisk";
-import Cell from "../components/Cell";
+import Cell from "@/app/components/Cell";
+import Section from "@/app/components/Section";
+import Asterisk from "@/app/components/Asterisk";
+import { Heading2 } from "@/app/components/Typography";
 
 function Product() {
   return (
-    <section id="product">
-      <div className="container mx-auto">
-        <Cell border={"left"} padding={"none"}>
-          <Cell padding={"heading"}>
-            <Heading2>Our products.</Heading2>
+    <Section id="product">
+      <Heading2>Our products.</Heading2>
+
+      <Cell border={"top-left"} padding={"none"}>
+        <Asterisk></Asterisk>
+        <div className="grid grid-cols-2">
+          <Cell className="bg-white/10 flex items-center hover:bg-white/25 transition-colors duration-300">
+            <h3 className="text-white text-[22px] leading-[100%] font-bold">
+              backoffice
+            </h3>
           </Cell>
-          <div className="relative grid grid-cols-2">
-            <Asterisk></Asterisk>
-            <Asterisk position={"bottom-right"}></Asterisk>
-            <Cell className="bg-white/10 flex items-center hover:bg-white/25 transition-colors duration-300">
-              <h3 className="text-white text-[22px] leading-[100%] font-bold">
-                backoffice
-              </h3>
-            </Cell>
-            <Cell className="bg-white/10 flex items-center hover:bg-white/25 transition-colors duration-300">
-              <h3 className="text-white text-[22px] leading-[100%] font-bold">
-                atlas <br />
-                oceaterra
-              </h3>
-            </Cell>
-            <Cell className="bg-white/10 flex items-center hover:bg-white/25 transition-colors duration-300">
-              <h3 className="text-white text-[22px] leading-[100%] font-bold">
-                eterra <br />
-                carbon
-              </h3>
-            </Cell>
-            <Cell className="bg-white/10 flex items-center hover:bg-white/25 transition-colors duration-300"></Cell>
-          </div>
-        </Cell>
-      </div>
-    </section>
+          <Cell className="bg-white/10 flex items-center hover:bg-white/25 transition-colors duration-300">
+            <h3 className="text-white text-[22px] leading-[100%] font-bold">
+              atlas <br />
+              oceaterra
+            </h3>
+          </Cell>
+          <Cell className="bg-white/10 flex items-center hover:bg-white/25 transition-colors duration-300">
+            <h3 className="text-white text-[22px] leading-[100%] font-bold">
+              eterra <br />
+              carbon
+            </h3>
+          </Cell>
+          <Cell className="bg-white/10 flex items-center hover:bg-white/25 transition-colors duration-300"></Cell>
+        </div>
+        <Asterisk position={"bottom-right"}></Asterisk>
+      </Cell>
+    </Section>
   );
 }
 
